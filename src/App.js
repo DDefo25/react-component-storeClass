@@ -1,5 +1,5 @@
 import './App.css';
-import ShopItemFunc from './components/ShopItemFunc';
+import ShopItemClass from './components/ShopItemClass';
 import React from 'react';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <ShopItemFunc item={item}/>
+    <ShopItemClass item={item}/>
   );
 }
 
